@@ -397,10 +397,6 @@ Password_Notebook_Bttn.grid(row=0, column=0)
 Settings_Bttn = Button(bottom_bar, text="Settings", command=Authentication2)
 Settings_Bttn.grid(row=1, column=0)
 
-# Made By Parin Label
-Credits = Label(bottom_bar, text="Made by Parin")
-Credits.grid(row=2, column=0)
-
 
 def alert(title, message, kind='info', hidemain=True):
     if kind not in ('error', 'warning', 'info'):
